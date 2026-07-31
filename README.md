@@ -22,9 +22,10 @@
 
 ## 使用方法
 
-1. 将 `skill.md` 的全部内容复制为 AI Agent 的 System Prompt（系统指令）
-2. 适用于 Claude Code、OpenClaw、ClawsGO、ChatGPT、Kimi 等支持自定义指令的 AI 平台
-3. 使用场景：
+1. 将 `SKILL.md` 的全部内容复制为 AI Agent 的 System Prompt（系统指令）
+2. 适用于 **ClawsGO**、OpenClaw、Claude Code、ChatGPT、Kimi 等支持自定义指令的 AI 平台
+3. ClawsGO/OpenClaw 用户可直接导入：文件含标准 YAML frontmatter（`name: math-modeling-master`），平台自动识别
+4. 使用场景：
    - 赛前训练：发一道真题，让 AI 带你走完整流程
    - 赛中辅助：建模思路、代码调试、摘要打磨
    - 赛后复盘：分析优秀论文，对比你的解法
