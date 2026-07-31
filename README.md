@@ -22,9 +22,15 @@
 
 ## 使用方法
 
-1. 将 `SKILL.md` 的全部内容复制为 AI Agent 的 System Prompt（系统指令）
-2. 适用于 **ClawsGO**、OpenClaw、Claude Code、ChatGPT、Kimi 等支持自定义指令的 AI 平台
-3. ClawsGO/OpenClaw 用户可直接导入：文件含标准 YAML frontmatter（`name: math-modeling-master`），平台自动识别
+### 方式一：ClawsGO / OpenClaw 直接导入
+1. 打开 `app.clawsgo.cn/files`
+2. 导入 `math-modeling-master/` 整个文件夹
+3. 或克隆本仓库后，将 `math-modeling-master/` 目录放入 skills 目录
+
+### 方式二：手动复制
+1. 打开 `math-modeling-master/SKILL.md`
+2. 将全部内容（含 YAML frontmatter）复制为 AI Agent 的 System Prompt
+3. 适用于 **ClawsGO**、OpenClaw、Claude Code、ChatGPT、Kimi 等支持自定义指令的 AI 平台
 4. 使用场景：
    - 赛前训练：发一道真题，让 AI 带你走完整流程
    - 赛中辅助：建模思路、代码调试、摘要打磨
