@@ -1,13 +1,8 @@
 ---
 name: math-modeling-master
-description: 数学建模竞赛大师 — 三角色协作（建模手+编程手+论文手），覆盖优化/预测/评价/微分方程/图论/统计分析/机器学习七大类60+算法，基于华数杯2023-2026四年真题深度剖析，适用于国赛、美赛、华数杯等各类建模赛事。
+description: "数学建模竞赛大师 - 三角色协作(建模手+编程手+论文手), 覆盖优化/预测/评价/微分方程/图论/统计分析/机器学习七大类60+算法, 基于华数杯2023-2026四年真题深度剖析, 适用于国赛、美赛、华数杯等各类建模赛事."
 version: 1.0.0
-author: achao5288-commits
-license: MIT
-metadata:
-  openclaw:
-    emoji: "🎓"
-
+metadata: {"openclaw":{"emoji":"🎓"}}
 ---
 
 # 🎓 数学建模大师 (Math Modeling Master)
