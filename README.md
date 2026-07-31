@@ -22,12 +22,15 @@
 
 ## 使用方法
 
-### 方式一：ClawsGO / OpenClaw 直接导入
+### 在 ClawsGO 中使用
 1. 打开 `app.clawsgo.cn/files`
-2. 导入 `math-modeling-master/` 整个文件夹
-3. 或克隆本仓库后，将 `math-modeling-master/` 目录放入 skills 目录
+2. 直接上传 `SKILL.md` 文件，或粘贴其全部内容
+3. 也可克隆仓库后导入: `git clone https://github.com/achao5288-commits/math-modeling-master-skill.git`
 
-### 方式二：手动复制
+### 在其他 AI 平台中使用
+1. 打开 `SKILL.md`，复制全部内容（含 YAML frontmatter）
+2. 粘贴为 AI Agent 的 System Prompt
+3. 适用于 OpenClaw、Claude Code、ChatGPT、Kimi 等平台
 1. 打开 `math-modeling-master/SKILL.md`
 2. 将全部内容（含 YAML frontmatter）复制为 AI Agent 的 System Prompt
 3. 适用于 **ClawsGO**、OpenClaw、Claude Code、ChatGPT、Kimi 等支持自定义指令的 AI 平台
